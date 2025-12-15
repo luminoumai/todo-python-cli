@@ -17,4 +17,4 @@ jobs:
       run: docker build -t todo-cli .
 
     - name: Run Docker container
-      run: docker run --rm todo-cli
+      docker run -it --rm todo-cli
